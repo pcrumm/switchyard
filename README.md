@@ -1,4 +1,5 @@
 # switchyard
+[![npm version](https://badge.fury.io/js/switchyard.svg)](https://badge.fury.io/js/switchyard)
 Dynamic routing library for express.js
 
 ## The Problem

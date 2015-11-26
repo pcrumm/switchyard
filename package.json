@@ -1,0 +1,32 @@
+{
+  "name": "switchyard",
+  "version": "0.0.1",
+  "description": "Dynamic routing library for express.js applications.",
+  "main": "lib/switchyard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcrumm/switchyard.git"
+  },
+  "keywords": [
+    "expressjs",
+    "routing",
+    "dynamic",
+    "routing"
+  ],
+  "author": {
+    "name": "Phil Crumm",
+    "email": "pkcrumm@gmail.com",
+    "url": "http://philcrumm.com"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/pcrumm/switchyard/issues"
+  },
+  "homepage": "https://github.com/pcrumm/switchyard#readme",
+  "dependencies": {
+    "lodash": "^3.10.1"
+  }
+}

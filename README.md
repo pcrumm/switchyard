@@ -28,7 +28,7 @@ npm install --save switchyard
 ## Usage
 Using switchyard is simple. Place your controllers in one director (we'll use `controllers` for our examples). A simple example server:
 
-```
+``` javascript
 var app = require( 'express' )();
 var switchyard = require( 'switchyard' );
 

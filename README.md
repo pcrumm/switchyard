@@ -1,5 +1,6 @@
 # switchyard
 [![npm version](https://badge.fury.io/js/switchyard.svg)](https://badge.fury.io/js/switchyard)
+[![Build Status](https://travis-ci.org/pcrumm/switchyard.svg?branch=master)](https://travis-ci.org/pcrumm/switchyard)
 
 Dynamic routing library for express.js
 

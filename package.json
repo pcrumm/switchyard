@@ -4,7 +4,7 @@
   "description": "Dynamic routing library for express.js applications.",
   "main": "lib/switchyard.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests/test.js"
   },
   "repository": {
     "type": "git",
@@ -28,5 +28,12 @@
   "homepage": "https://github.com/pcrumm/switchyard#readme",
   "dependencies": {
     "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "assert": "^1.3.0",
+    "express": "^4.13.3",
+    "mocha": "^2.3.4",
+    "should": "^7.1.1",
+    "supertest": "^1.1.0"
   }
 }

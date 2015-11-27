@@ -90,5 +90,10 @@ module.exports = {
 };
 ```
 
+## Coming Soon
+I have a few future things I'd like to support that are coming soon:
+* Route aliases
+* Subdirectories in the controller directory
+
 ## Contributing
 Pull requests are gladly appreciated! You are also free to create issues for feature requests, bugs, or to complain about this documentation.

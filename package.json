@@ -1,6 +1,6 @@
 {
   "name": "switchyard",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Dynamic routing library for express.js applications.",
   "main": "lib/switchyard.js",
   "scripts": {

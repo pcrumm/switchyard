@@ -66,6 +66,15 @@ describe( 'Switchyard', function() {
              * and ensure the responses match for each.
              */
             _.forOwn( route_aliases, function( true_route, alias_route ) {
+                // Ensure both routes are properly prefixed for correct behavior
+                if( true_route[0] != '/' ) {
+                    true_route = '/' + true_route;
+                }
+
+                if ( alias_route[0] != '/' ) {
+                    alias_route = '/' + alias_route;
+                }
+                
                 http_verbs.forEach( function( verb ) {
                     it( 'should match ' + verb + ' output for alias ' + alias_route + ' => ' + true_route, function( done ) {
                         request( base_url )[ verb ]( true_route ).end( function( e_true, r_true ) {

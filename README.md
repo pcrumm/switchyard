@@ -90,9 +90,26 @@ module.exports = {
 };
 ```
 
+### Route aliases
+You can also define special routes, which don't match the controller name/method convention. To do this, pass a third parameter to the switchyard instantiation:
+
+```javascript
+var route_aliases = {
+    '/login': '/user/login',
+    '/logout': '/user/logout'
+};
+
+switchyard( app, __dirname + '/controllers', route_aliases );
+```
+
+The key in the `route_alias` object is the alias URL you'd like to define, and the value is the path that it will map to. In this example, `/login` will now map to the `login` endpoint in `controllers/user.js`.
+
+Aliases automatically map to every verb on the endpoint: for example, if `controllers/user.js:login` defined a `GET` and `POST` method, so would `/login`.
+
+Multiple aliases may point to the same controller.
+
 ## Coming Soon
 I have a few future things I'd like to support that are coming soon:
-* Route aliases
 * Subdirectories in the controller directory
 
 ## Contributing
